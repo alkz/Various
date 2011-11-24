@@ -1,0 +1,21 @@
+MailCleaner e' un software sviluppato per l'automazione della gestione delle email per 
+l'azienda PoliGrafica SRL.
+
+Da un consulto e' emerso che le operazioni possibili su un'email sono:
+
+    - Rimozione dal Database(per impedire ulteriore rispedizione)
+    - Sostituzione dal database(eventuale cambio email)
+    - Inoltro dell'email(conferma anti-SPAM)
+    - Cancellazione dell'email
+
+Basandosi sulla semantica delle email, ed il contenuto si identifica a quale delle operazioni 
+e' destinatal'email.
+
+MailCleaner utilizza un algoritmo basato su delle key-words(parole chiave), le parole chiave per ogni
+categoria di operazione sono reperibili nei files nella directory 'keyWords/' (per l'aggiunta di 
+parole riscontrate seguentemente leggere il file interessato).
+
+Terminata l'esecuzione MailCleaner creera' 3 file nella directory 'outputs/', con le rispettive email
+da: Rimuovere, Sostituire oppure, se non lo si ha gia' confermato nel programma, rispedire.
+
+

@@ -1,0 +1,11 @@
+# Nomi dei campi da memorizzare per la crivellazione delle email
+# E' possibile aggiungerne di altri nel caso ne si riscontrassero significativi
+# Per il nome dei campi consultare i file .eml(Apribili con Notepad)
+
+return-path
+Envelope-to
+From
+Message-id
+Subject
+To
+delivered-to
