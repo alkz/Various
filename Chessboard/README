@@ -1,1 +1,4 @@
 HARR
+
+To compile it:
+    g++ `wx-config --libs --cxxflags ` -o Chessboard ChessboardApp.h ChessboardApp.cpp Chessboard.h Chessboard.cpp ChessboardFrame.h ChessboardFrame.cpp
